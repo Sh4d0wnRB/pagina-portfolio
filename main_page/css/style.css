@@ -33,6 +33,7 @@ header{
 main{
     background: rgb(40, 40, 40);
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 ul{
@@ -58,7 +59,7 @@ nav {
 }
 
 .perfil{
-    width: 20vw;
+    width: 250px;
     margin: auto;
     padding: 20px;
     background: rgb(9,7,48);
@@ -75,7 +76,7 @@ nav {
 }
 
 .perfil-paragraph{
-    width: 20vw;
+    width: 250px;
     padding: 20px;
     background: rgb(50, 50, 50);
     margin: 0 auto;
@@ -97,13 +98,35 @@ nav {
 
 .about-me{
     color: #fefefe;
-    font-size: 20px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.image-me{
+    width: 50%;
+    float: left;
+    height: 100%;
+    opacity: 0.6;
+    background: #fefefe;
+}
+
+.about{
+    width: 90vw;
+    margin: 2em auto auto auto;
+    height: 30vw;
+}
+
+#div-p1{
+    width: 50%;
+    margin-left: 50%;
+    height: 100%;
 }
 
 footer {
     background: url("../images/bg.png");
     text-align: center;
     padding: 40px 0;
+    display: block;
 }
 
 .copyright {
